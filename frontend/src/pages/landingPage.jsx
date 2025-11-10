@@ -15,7 +15,7 @@ export default function LandingPage() {
 
   return (
     <>
-      <h1 className="font-mono text-green-500 font-bold text-base">
+      <h1 className="font-mono text-green-500 font-bold text-base ">
         Hello this is the Landing Page
       </h1>
       <p className="text-gray-700">Fetched title: {name.title}</p>
