@@ -1,9 +1,17 @@
 @import "tailwindcss";
 
+
+@theme {
+    --color-primary-blue: #2D6259;
+    --color-secondary-blue: #55A093;
+}
+
 body {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-
+    background: linear-gradient(to right, #fff, #55A093);
+    color: black;
 }
+
